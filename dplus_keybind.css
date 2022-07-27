@@ -1,3 +1,7 @@
-body { 
-	border: 5px dashed red;
+.slick-list {
+	border: 5px dashed lightgray !important;
+}
+
+.slick-list[data-dpluskeybind_row_selected="true"] {
+	border: 5px dashed blue !important;
 }
