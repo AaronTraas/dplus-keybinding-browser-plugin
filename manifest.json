@@ -1,5 +1,4 @@
 {
-
   "manifest_version": 2,
   "name": "Keybindings for D+",
   "version": "0.1",
@@ -18,5 +17,4 @@
       "js": ["disneyplus_keybind.js"]
     }
   ]
-
 }

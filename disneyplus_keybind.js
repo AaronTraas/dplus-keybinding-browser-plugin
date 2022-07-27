@@ -16,7 +16,6 @@ try {
 	document.head.appendChild(styleElement);
 	console.debug('[d+keybind] style element appended');
 
-	/*
 	let lists = document.querySelectorAll('slick-list');
 
 	activeList = lists[0];
@@ -24,7 +23,6 @@ try {
 	document.addEventListener('keydown', (event) => {
 		console.debug('Key down: ' + event.code);
 	});
-	*/
 } catch (err) {
 	log.debug(err);
 }
