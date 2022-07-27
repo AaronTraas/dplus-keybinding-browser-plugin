@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "Keybindings for D+",
+  "version": "0.1",
+
+  "description": "Adds keybindings to Disney+ in-browser streaming application",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "permissions": [ "*://*.disneyplus.com/*", "tabs", "activeTab" ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.disneyplus.com/*"],
+      "js": ["disneyplus_keybind.js"]
+    }
+  ]
+
+}
