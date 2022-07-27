@@ -4,7 +4,7 @@ console.debug('[d+keybind] grabbing active tab');
 
 try {
 
-	const stylesheetUrl = browser.extension.getURL("disneyplus_keybind.css");
+	const stylesheetUrl = browser.extension.getURL("dplus_keybind.css");
 	console.debug('[d+keybind] URL for CSS to insert: ' + stylesheetUrl);
 
 	var styleElement = document.createElement('link');

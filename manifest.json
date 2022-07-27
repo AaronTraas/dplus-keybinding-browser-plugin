@@ -14,7 +14,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.disneyplus.com/*"],
-      "js": ["disneyplus_keybind.js"]
+      "js": ["dplus_keybind.js"]
     }
   ]
 }
